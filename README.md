@@ -30,7 +30,7 @@ Esta API recebe as medidas (comprimento e largura) das sépalas e pétalas de um
 
 1.  **Clone o Repositório (se aplicável):**
     ```bash
-    git clone <url-do-seu-repositorio>
+    git clone <url-do-repositorio>
     cd <nome-do-diretorio-do-projeto>
     ```
 
@@ -106,3 +106,9 @@ curl -X 'POST' \
   "petal_length": 1.4,
   "petal_width": 0.2
 }'
+```
+
+## Roadmap
+
+* Implementar docker
+* Implementar https://kedro.org/
