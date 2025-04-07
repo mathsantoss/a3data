@@ -112,3 +112,7 @@ curl -X 'POST' \
 
 * Implementar docker
 * Implementar https://kedro.org/
+
+
+![image](https://github.com/user-attachments/assets/4c580b47-2e2c-4f71-a2e6-0bad2747359a)
+
