@@ -8,4 +8,3 @@ class HealthResponse(BaseModel):
     """
 
     status: str = Field(..., description="API status")
-    model_version: str = Field(..., description="Model version")

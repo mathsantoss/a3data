@@ -20,9 +20,7 @@ async def health():
     """
     try:
 
-        model_version = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
-
-        return {"status": "healthy", "model_version": model_version}
+        return {"status": "healthy"}
     except Exception as e:
         logger.error(f"Health check failed: {e}")
         raise HTTPException(status_code=503, detail=f"Service unavailable: {str(e)}")
