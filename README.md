@@ -74,10 +74,10 @@ Após instalar as dependências e garantir que o arquivo `src/artefacts/iris_mod
     No diretório raiz do projeto, execute o seguinte comando:
 
     ```bash
-    uvicorn main:application --host 0.0.0.0 --port 8000 --reload
+    uvicorn src.main:application
     ```
 
-    *   `main:application`: Aponta para o objeto `application` (a instância FastAPI) dentro do arquivo `main.py`.
+    *   `src.main:application`: Aponta para o objeto `application` (a instância FastAPI) dentro do arquivo `main.py`.
     *   `--host 0.0.0.0`: Torna a API acessível na sua rede local (use `127.0.0.1` para acesso apenas local).
     *   `--port 8000`: Define a porta em que a API será executada.
     *   `--reload`: (Opcional, para desenvolvimento) Reinicia o servidor automaticamente quando detecta alterações no código. Remova isso para produção.
